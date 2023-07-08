@@ -1,0 +1,384 @@
+@media only screen and (max-width: 747.99px) {
+    .content {
+        margin-top: 10px;
+    }
+
+    .girisUye {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 290px;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+    }
+
+    .girisUye h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .butonlar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .uyeOl {
+        display: none;
+    }
+
+    .girisYap form,
+    .uyeOl form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .girisYap form label,
+    .uyeOl form label {
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    .girisYap form input,
+    .uyeOl form input {
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .girisYap form input[type="submit"],
+    .uyeOl form input[type="submit"] {
+        padding: 10px;
+        background-color: #428bca;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .girisYap form input[type="submit"]:hover,
+    .uyeOl form input[type="submit"]:hover {
+        background-color: #428bca;
+    }
+
+    .butonlar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        /* Kenar boşlukları dahil ederek genişlik hesaplama */
+    }
+
+    .butonlar button {
+        padding: 10px;
+        background-color: #428bca;
+        color: rgb(0, 0, 0);
+        border: 1px solid #428bca;
+        /* Çerçeve ekleme */
+        cursor: pointer;
+        width: 50%;
+        /* İki butonun eşit genişlikte olması */
+    }
+
+    .butonlar button:first-child {
+        border-radius: 10px 0 0 10px;
+        /* Sadece sol butonda köşeleri yuvarlama */
+    }
+
+    .butonlar button:last-child {
+        border-radius: 0 10px 10px 0;
+        /* Sadece sağ butonda köşeleri yuvarlama */
+    }
+}
+
+@media only screen and (min-width: 748px) and (max-width: 900.99px) {
+    .content {
+        margin-top: 20px;
+    }
+
+    .girisUye {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 365px;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+    }
+
+    .girisUye h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .butonlar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .uyeOl {
+        display: none;
+    }
+
+    .girisYap form,
+    .uyeOl form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .girisYap form label,
+    .uyeOl form label {
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    .girisYap form input,
+    .uyeOl form input {
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .girisYap form input[type="submit"],
+    .uyeOl form input[type="submit"] {
+        padding: 10px;
+        background-color: #428bca;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .girisYap form input[type="submit"]:hover,
+    .uyeOl form input[type="submit"]:hover {
+        background-color: #428bca;
+    }
+
+    .butonlar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        /* Kenar boşlukları dahil ederek genişlik hesaplama */
+    }
+
+    .butonlar button {
+        padding: 10px;
+        background-color: #428bca;
+        color: rgb(0, 0, 0);
+        border: 1px solid #428bca;
+        /* Çerçeve ekleme */
+        cursor: pointer;
+        width: 50%;
+        /* İki butonun eşit genişlikte olması */
+    }
+
+    .butonlar button:first-child {
+        border-radius: 10px 0 0 10px;
+        /* Sadece sol butonda köşeleri yuvarlama */
+    }
+
+    .butonlar button:last-child {
+        border-radius: 0 10px 10px 0;
+        /* Sadece sağ butonda köşeleri yuvarlama */
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1199.99px) {
+    .content {
+        margin-top: 200px;
+    }
+
+    .girisUye {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 380px;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+    }
+
+    .girisUye h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .butonlar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .uyeOl {
+        display: none;
+    }
+
+    .girisYap form,
+    .uyeOl form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .girisYap form label,
+    .uyeOl form label {
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    .girisYap form input,
+    .uyeOl form input {
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .girisYap form input[type="submit"],
+    .uyeOl form input[type="submit"] {
+        padding: 10px;
+        background-color: #428bca;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .girisYap form input[type="submit"]:hover,
+    .uyeOl form input[type="submit"]:hover {
+        background-color: #428bca;
+    }
+
+    .butonlar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        /* Kenar boşlukları dahil ederek genişlik hesaplama */
+    }
+
+    .butonlar button {
+        padding: 10px;
+        background-color: #428bca;
+        color: rgb(0, 0, 0);
+        border: 1px solid #428bca;
+        /* Çerçeve ekleme */
+        cursor: pointer;
+        width: 50%;
+        /* İki butonun eşit genişlikte olması */
+    }
+
+    .butonlar button:first-child {
+        border-radius: 10px 0 0 10px;
+        /* Sadece sol butonda köşeleri yuvarlama */
+    }
+
+    .butonlar button:last-child {
+        border-radius: 0 10px 10px 0;
+        /* Sadece sağ butonda köşeleri yuvarlama */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content {
+        margin-top: 200px;
+    }
+
+    .girisUye {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 380px;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 25px;
+    }
+
+    .girisUye h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .butonlar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .uyeOl {
+        display: none;
+        width: 100%;
+    }
+
+    .girisYap form,
+    .uyeOl form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .girisYap form label,
+    .uyeOl form label {
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    .girisYap form input,
+    .uyeOl form input {
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .girisYap form input[type="submit"],
+    .uyeOl form input[type="submit"] {
+        padding: 10px;
+        background-color: #428bca;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .girisYap form input[type="submit"]:hover,
+    .uyeOl form input[type="submit"]:hover {
+        background-color: #428bca;
+    }
+
+    .butonlar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        /* Kenar boşlukları dahil ederek genişlik hesaplama */
+    }
+
+    .butonlar button {
+        padding: 10px;
+        background-color: #428bca;
+        color: rgb(0, 0, 0);
+        border: 1px solid #428bca;
+        /* Çerçeve ekleme */
+        cursor: pointer;
+        width: 50%;
+        /* İki butonun eşit genişlikte olması */
+    }
+
+    .butonlar button:first-child {
+        border-radius: 10px 0 0 10px;
+        /* Sadece sol butonda köşeleri yuvarlama */
+    }
+
+    .butonlar button:last-child {
+        border-radius: 0 10px 10px 0;
+        /* Sadece sağ butonda köşeleri yuvarlama */
+    }
+}

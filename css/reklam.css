@@ -1,0 +1,195 @@
+/*-------------------------------------------------TELEFON-------------------------------------------------*/
+@media only screen and (max-width: 747.99px) {
+  .sliderReklamPhoto {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    max-width: 400px;
+    width: 100%;
+    /* Genişlik değerini yüzde olarak ayarlayın */
+    height: 200px;
+    /* Yükseklik değerini otomatik olarak ayarlayın */
+    margin-top: 10px;
+  }
+
+  .sliderReklamPhoto img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sliderReklam {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+}
+
+/*-------------------------------------------------TABLET-------------------------------------------------*/
+
+@media only screen and (min-width: 748px) and (max-width: 900.99px) {
+  .sliderReklamPhoto {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    max-width: 600px;
+    width: 100%;
+    /* Genişlik değerini yüzde olarak ayarlayın */
+    height: 250px;
+    /* Yükseklik değerini otomatik olarak ayarlayın */
+    margin-top: 10px;
+  }
+
+  .sliderReklamPhoto img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sliderReklam {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+}
+
+
+/*-------------------------------------------------LAPTOP-------------------------------------------------*/
+
+@media only screen and (min-width: 901px) and (max-width: 1199.99px) {
+  .sliderReklamPhoto {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    max-width: 800px;
+    width: 100%;
+    /* Genişlik değerini yüzde olarak ayarlayın */
+    height: 300px;
+    /* Yükseklik değerini otomatik olarak ayarlayın */
+    margin-top: 150px;
+  }
+
+  .sliderReklamPhoto img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sliderReklam {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+}
+
+/*-------------------------------------------------BİLGİSAYAR-------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+  .sliderReklamPhoto {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    max-width: 800px;
+    width: 100%;
+    /* Genişlik değerini yüzde olarak ayarlayın */
+    height: 350px;
+    /* Yükseklik değerini otomatik olarak ayarlayın */
+    margin-top: 200px;
+  }
+
+  .sliderReklamPhoto img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sliderReklam {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+}

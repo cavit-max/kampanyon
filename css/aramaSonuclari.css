@@ -1,0 +1,142 @@
+@media only screen and (max-width: 617.99px) {
+  .content{
+    max-width: 747.99px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .kampanyalarGosterim {
+    max-width: 477.99px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .kampanyalarGosterim > div {
+    width: 43%; /* Her bir öğenin genişliği 25% */
+    margin-bottom: 30px; /* Alt satırla arasında 20 piksel mesafe */
+  }
+}
+
+@media only screen and (min-width: 618px) and (max-width: 747.99px) {
+  .content{
+    max-width: 747.99px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .kampanyalarGosterim {
+    max-width: 747.99px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .kampanyalarGosterim > div {
+    width: 27%; /* Her bir öğenin genişliği 25% */
+    margin-bottom: 30px; /* Alt satırla arasında 20 piksel mesafe */
+  }
+}
+
+@media only screen and (min-width: 748px) and (max-width: 900.99px) {
+  .content{
+    max-width: 900.99px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .kampanyalarGosterim {
+    max-width: 900.99px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .kampanyalarGosterim > div {
+    width: 29%; /* Her bir öğenin genişliği 25% */
+    margin-bottom: 30px; /* Alt satırla arasında 20 piksel mesafe */
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1199.99px) {
+  .content{
+    max-width: 1199.99px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .kampanyalarGosterim {
+    max-width: 1199.99px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: space-between;
+  }
+  
+  .kampanyalarGosterim > div {
+    width: 19.53%; /* Her bir öğenin genişliği 25% */
+    margin-bottom: 30px; /* Alt satırla arasında 20 piksel mesafe */
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .kampanyalarGosterim {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Yatayda ortala */
+    max-width: none; /* Max genişlik sınırlamasını kaldır */
+  }
+  
+  .kampanyalarGosterim > div {
+    width: 16%;
+    margin-bottom: 30px;
+  }
+}

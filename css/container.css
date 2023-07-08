@@ -1,0 +1,1656 @@
+@media screen and (max-width: 747.99px) {
+
+	.container {
+		max-width: 900.99px;
+		width: 100%;
+	}
+
+	.logoDiv {
+		display: none;
+	}
+
+	.konumDiv {
+		display: none;
+	}
+
+	.aramaDiv {
+		display: none;
+	}
+
+	.hesapAnaDiv {
+		display: none;
+	}
+
+	.kategoriDiv {
+		display: none;
+	}
+
+	/*--------------------------------------*/
+
+	.telefonRes {
+		max-width: 900.99px;
+		width: 100%;
+		height: 150px;
+		justify-content: space-between;
+	}
+
+	/*--------------------------------------*/
+	.telResUst {
+		max-width: 900.99px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.telResUst .telResUstSol {
+		display: flex;
+		width: 200px;
+		height: 50px;
+	}
+
+	.telResUstSol .telResUstSolMenu {
+		width: 50px;
+	}
+
+	.telResUstSolMenu img {
+		width: 30px;
+		height: 30px;
+		margin-top: 8px;
+		margin-left: 10px;
+	}
+
+	.telResUstSol a {
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 10px;
+		margin-top: 9px;
+		font-family: 'YourFont', cursive;
+		color: #428bca;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+
+	/*-------------------------------MENU-----------------------------------*/
+	.menu480 {
+		width: 250px;
+		position: absolute;
+		top: 0;
+		left: -250px;
+		height: 100%;
+		background-color: #fff;
+		transition: left 0.3s ease;
+		z-index: 999;
+	}
+
+	.menu480Ust {
+		width: 250px;
+		height: 50px;
+		background-color: rgb(238, 238, 238);
+	}
+
+	.logoKampanyon {
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 10px;
+		padding-top: 8px;
+		font-family: 'YourFont', cursive;
+		color: #428bca;
+	}
+
+	.kapatmaX {
+		position: absolute;
+		top: 25px;
+		right: 10px;
+		cursor: pointer;
+		margin-top: 10px;
+	}
+
+	.menu480.active {
+		left: 0;
+	}
+
+	.menuListesi {
+		width: 250px;
+		padding-left: 0;
+		margin-left: 10px;
+
+	}
+
+	.menuOge {
+		list-style-type: none;
+		padding-left: 0;
+		font: 1em sans-serif;
+		margin-top: 7px;
+		margin-left: 30px;
+	}
+
+	.menuOge p {
+		font-size: 8px;
+		margin-top: -15px;
+		margin-left: -25px;
+		color: #428bca;
+	}
+
+	.menuOgeAlt {
+		display: flex;
+		padding-right: 20px;
+	}
+
+	.altMenuListesi {
+		display: none;
+		list-style-type: none;
+		margin-left: -60px;
+		margin-top: 20px;
+		font-size: 16px;
+		font: 1em sans-serif;
+		margin-bottom: 20px;
+	}
+
+	.altMenuListesi.goster {
+		display: block;
+		/* altMenuListesi sınıfı eklenmişse görünür hale getir */
+	}
+
+	/*------------SAĞ ÜST LOGO---------------------------------------------------------------------------------------------------------*/
+
+	/*Hesap*/
+	.hesapAnaDivRes {
+		display: flex;
+		margin-left: -100px;
+	}
+
+	/*hesap isletme*/
+	.isletmeUyeRes {
+		display: flex;
+	}
+
+	.isletmeDivRes {
+		width: 85px;
+		height: 30px;
+		margin-left: 20px;
+		margin-top: 10px;
+		background-color: #428bca;
+		border: none;
+		border-radius: 25px;
+		/* Oval kenarlar oluşturmak için */
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		/* Hafif bir gölgelendirme eklemek için */
+	}
+
+	.isletmeYaziRes {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 3px;
+		margin-top: 9.5px;
+	}
+
+	.isletmeYaziRes a {
+		text-decoration: none;
+		color: white;
+		font-size: 9px;
+	}
+
+	/*isletme ama normal uye tarafında yazılı*/
+	.normalUyeRes .ilanVerRes {
+		margin-top: 5px;
+		margin-left: 10px;
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #428bca;
+		color: #ffffff;
+		text-decoration: none;
+		border: 2px solid #428bca;
+		border-radius: 25px;
+		transition: background-color 0.3s, color 0.3s;
+	}
+
+	.ilanVerRes:hover {
+		background-color: #ffffff;
+		color: #428bca;
+	}
+
+	/*hesap kullanici*/
+	.normalUyeRes {
+		display: flex;
+	}
+
+	.hesapDivRes {
+		width: 65px;
+		height: 30px;
+		margin-left: 10px;
+		margin-top: 10px;
+		background-color: #428bca;
+		border: none;
+		border-radius: 25px;
+		/* Oval kenarlar oluşturmak için */
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		/* Hafif bir gölgelendirme eklemek için */
+	}
+
+	.hesapYaziRes {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10px;
+		margin-right: 5px;
+	}
+
+	.hesapYaziRes a {
+		text-decoration: none;
+		color: white;
+		font-size: 10px;
+	}
+
+	/*----*/
+
+	/*HesabımKişi*/
+	.hesap-containerRes {
+		position: relative;
+		display: inline-block;
+		font-family: Arial, sans-serif;
+		margin-left: 10px;
+		margin-top: 13px;
+	}
+
+	.hesap-yaziRes {
+		display: inline-block;
+		margin-left: 1px;
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	.iconRes {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hesap-menuRes {
+		display: none;
+		position: absolute;
+		top: 30px;
+		left: 0;
+		min-width: 150px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	.hesap-menuRes a {
+		display: block;
+		color: #000;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	.hesap-menuRes a:hover {
+		background-color: #f2f2f2;
+	}
+
+	.hesap-containerRes:hover .hesap-menu {
+		display: block;
+	}
+
+	/*-------*/
+
+	/*Hesabım İsletme*/
+	.hesap-container1Res {
+		position: relative;
+		display: inline-block;
+		font-family: Arial, sans-serif;
+		margin-left: 30px;
+		margin-top: 15px;
+	}
+
+	.hesap-yazi1Res {
+		display: inline-block;
+		margin-left: 5px;
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	.icon1Res {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hesap-menu1Res {
+		display: none;
+		position: absolute;
+		top: 30px;
+		left: 0;
+		min-width: 150px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	.hesap-menu1Res a {
+		display: block;
+		color: #000;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	.hesap-menu1Res a:hover {
+		background-color: #f2f2f2;
+	}
+
+	.hesap-container1Res:hover .hesap-menu1 {
+		display: block;
+	}
+
+	/*-------*/
+
+
+
+	/*---------------------------------------------------------------------------------------------------------------------------*/
+	.telResAlt {
+		max-width: 747.99px;
+		width: 100%;
+		height: 40px;
+		margin-top: 15px;
+	}
+
+	.telResAlt .telResAltArama {
+		display: flex;
+		align-items: center;
+		max-width: 747.99px;
+		width: 100%;
+		height: 40px;
+		background-color: #fff;
+		border-radius: 10px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+	}
+
+	.telResAltArama form {
+		max-width: 900.99px;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.telResAltArama input[type="text"] {
+		flex: 1;
+		border: none;
+		padding-left: 10px;
+		background-color: transparent;
+		font-size: 16px;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	.telResAltArama button[type="submit"] {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50px;
+		height: 100%;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+		outline: none;
+	}
+
+	.telResAltArama button[type="submit"] .ıcon {
+		width: 24px;
+		height: 24px;
+	}
+
+}
+
+@media (min-width: 748px) and (max-width: 900.99px) {
+
+	.container {
+		max-width: 900.99px;
+		width: 100%;
+	}
+
+	.logoDiv {
+		display: none;
+	}
+
+	.konumDiv {
+		display: none;
+	}
+
+	.aramaDiv {
+		display: none;
+	}
+
+	.hesapAnaDiv {
+		display: none;
+	}
+
+	.kategoriDiv {
+		display: none;
+	}
+
+	/*--------------------------------------*/
+
+	.telefonRes {
+		max-width: 900.99px;
+		width: 100%;
+		height: 150px;
+		justify-content: space-between;
+	}
+
+	/*--------------------------------------*/
+	.telResUst {
+		max-width: 900.99px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.telResUst .telResUstSol {
+		display: flex;
+		width: 200px;
+		height: 50px;
+	}
+
+	.telResUstSol .telResUstSolMenu {
+		width: 50px;
+	}
+
+	.telResUstSolMenu img {
+		width: 40px;
+		height: 40px;
+		margin-top: 8px;
+		margin-left: 10px;
+	}
+
+	.telResUstSol a {
+		font-size: 25px;
+		font-weight: bold;
+		margin-left: 10px;
+		margin-top: 9px;
+		font-family: 'YourFont', cursive;
+		color: #428bca;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+
+	/*-------------------------------MENU-----------------------------------*/
+	.menu480 {
+		width: 250px;
+		position: absolute;
+		top: 0;
+		left: -250px;
+		height: 100%;
+		background-color: #fff;
+		transition: left 0.3s ease;
+		z-index: 999;
+	}
+
+	.menu480Ust {
+		width: 250px;
+		height: 50px;
+		background-color: rgb(238, 238, 238);
+	}
+
+	.logoKampanyon {
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 10px;
+		padding-top: 8px;
+		font-family: 'YourFont', cursive;
+		color: #428bca;
+	}
+
+	.kapatmaX {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		cursor: pointer;
+		margin-top: 10px;
+	}
+
+	.menu480.active {
+		left: 0;
+	}
+
+	.menuListesi {
+		width: 250px;
+		padding-left: 0;
+		margin-left: 10px;
+	}
+
+	.menuOge {
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		list-style-type: none;
+		padding-left: 0;
+		font-size: 18px;
+		font: 1em sans-serif;
+	}
+
+	.menuOge p {
+		font-size: 8px;
+		margin-top: -15px;
+		margin-left: 5px;
+		color: #428bca;
+	}
+
+	.altMenuListesi {
+		display: none;
+		list-style-type: none;
+		padding-left: 0;
+		margin-left: 15px;
+		font-size: 16px;
+		font: 1em sans-serif;
+		margin-bottom: 20px;
+	}
+
+	.altMenuListesi.goster {
+		display: block;
+		/* altMenuListesi sınıfı eklenmişse görünür hale getir */
+	}
+
+	/*------------SAĞ ÜST LOGO---------------------------------------------------------------------------------------------------------*/
+
+	/*Hesap*/
+	.hesapAnaDivRes {
+		display: flex;
+		margin-left: -100px;
+	}
+
+	/*hesap isletme*/
+	.isletmeUyeRes {
+		display: flex;
+	}
+
+	.isletmeDivRes {
+		width: 95px;
+		height: 40px;
+		margin-left: 20px;
+		margin-top: 10px;
+		background-color: #428bca;
+		border: none;
+		border-radius: 25px;
+		/* Oval kenarlar oluşturmak için */
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		/* Hafif bir gölgelendirme eklemek için */
+	}
+
+	.isletmeYaziRes {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 3px;
+		margin-top: 13px;
+	}
+
+	.isletmeYaziRes a {
+		text-decoration: none;
+		color: white;
+		font-size: 11px;
+	}
+
+	/*isletme ama normal uye tarafında yazılı*/
+	.normalUyeRes .ilanVerRes {
+		margin-top: 8px;
+		margin-left: 10px;
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #428bca;
+		color: #ffffff;
+		text-decoration: none;
+		border: 2px solid #428bca;
+		border-radius: 25px;
+		transition: background-color 0.3s, color 0.3s;
+	}
+
+	.ilanVerRes:hover {
+		background-color: #ffffff;
+		color: #428bca;
+	}
+
+	/*hesap kullanici*/
+	.normalUyeRes {
+		display: flex;
+	}
+
+	.hesapDivRes {
+		width: 75px;
+		height: 40px;
+		margin-left: 10px;
+		margin-top: 10px;
+		background-color: #428bca;
+		border: none;
+		border-radius: 25px;
+		/* Oval kenarlar oluşturmak için */
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		/* Hafif bir gölgelendirme eklemek için */
+	}
+
+	.hesapYaziRes {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 13.5px;
+		margin-right: 5px;
+	}
+
+	.hesapYaziRes a {
+		text-decoration: none;
+		color: white;
+		font-size: 11px;
+	}
+
+	/*----*/
+
+	/*HesabımKişi*/
+	.hesap-containerRes {
+		position: relative;
+		display: inline-block;
+		font-family: Arial, sans-serif;
+		margin-left: 10px;
+		margin-top: 15px;
+	}
+
+	.hesap-yaziRes {
+		display: inline-block;
+		margin-left: 1px;
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	.iconRes {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hesap-menuRes {
+		display: none;
+		position: absolute;
+		top: 25px;
+		left: 0;
+		min-width: 150px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	.hesap-menuRes a {
+		display: block;
+		color: #000;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	.hesap-menuRes a:hover {
+		background-color: #f2f2f2;
+	}
+
+	.hesap-containerRes:hover .hesap-menu {
+		display: block;
+	}
+
+	/*-------*/
+
+	/*Hesabım İsletme*/
+	.hesap-container1Res {
+		position: relative;
+		display: inline-block;
+		font-family: Arial, sans-serif;
+		margin-left: 30px;
+		margin-top: 15px;
+	}
+
+	.hesap-yazi1Res {
+		display: inline-block;
+		margin-left: 1px;
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	.icon1Res {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hesap-menu1Res {
+		display: none;
+		position: absolute;
+		top: 25px;
+		left: 0;
+		min-width: 150px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	.hesap-menu1Res a {
+		display: block;
+		color: #000;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	.hesap-menu1Res a:hover {
+		background-color: #f2f2f2;
+	}
+
+	.hesap-container1Res:hover .hesap-menu1 {
+		display: block;
+	}
+
+	/*-------*/
+
+
+
+	/*---------------------------------------------------------------------------------------------------------------------------*/
+	.telResAlt {
+		max-width: 900.99px;
+		width: 100%;
+		height: 40px;
+		margin-top: 15px;
+	}
+
+	.telResAlt .telResAltArama {
+		display: flex;
+		align-items: center;
+		max-width: 900.99px;
+		width: 100%;
+		height: 40px;
+		background-color: #fff;
+		border-radius: 10px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+	}
+
+	.telResAltArama form {
+		max-width: 900.99px;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.telResAltArama input[type="text"] {
+		flex: 1;
+		border: none;
+		padding-left: 10px;
+		background-color: transparent;
+		font-size: 16px;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+
+	.telResAltArama button[type="submit"] {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50px;
+		height: 100%;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+		outline: none;
+	}
+
+	.telResAltArama button[type="submit"] .ıcon {
+		width: 24px;
+		height: 24px;
+	}
+
+}
+
+
+@media (min-width: 901px) and (max-width: 1199.99px) {
+	body {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0;
+	}
+
+	.container {
+		max-width: 1199.99px;
+		width: 100%;
+	}
+
+	.ustDiv {
+		background-color: rgb(255, 255, 255);
+		max-width: 1199.99px;
+		width: 100%;
+		height: 75px;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+		display: flex;
+		justify-content: space-between;
+		position: fixed;
+		padding-bottom: 10px;
+	}
+
+	.logoKonum {
+		display: flex;
+		align-items: center;
+	}
+
+	/*Logo*/
+	.ustDiv .logoDiv a {
+		font-size: 22px;
+		font-weight: bold;
+		margin-top: 0px;
+		margin-left: 75px;
+		font-family: 'YourFont', cursive;
+		color: #428bca;
+		text-decoration: none;
+	}
+
+
+	/*----*/
+
+
+	/*Konum*/
+	.ustDiv .konumDiv {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		max-width: 150px;
+		width: 100%;
+		height: 30px;
+		background-color: rgba(255, 255, 255, 0.981);
+		display: flex;
+		position: relative;
+		/* parent ögeyi relative yap */
+
+	}
+
+	.ustDiv .konumDiv img {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		/* img ögesini absolute yap */
+		top: 9px;
+		/* yukarıda 10px boşluk bırak */
+		left: 4px;
+		/* solda 10px boşluk bırak */
+	}
+
+	.ustDiv .konumDiv select {
+		max-width: 100px;
+		width: 100%;
+		height: 40px;
+		padding-left: 20px;
+		/* sol padding değerini img ögesinin genişliği kadar artır */
+		background-color: transparent;
+		border: none;
+		border-radius: 25px;
+		/* Oval kenarlar oluşturmak için */
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		/* Hafif bir gölgelendirme eklemek için */
+		font-size: 10px;
+	}
+
+	/*-----*/
+
+
+	/*Arama*/
+	.aramaDiv {
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+		width: 100%;
+		/* Varsayılan genişlik */
+		margin: 0 auto;
+		/* Dikey hizalama */
+		margin-left: 20px;
+		margin-top: 10px;
+	}
+
+	.aramaDiv form {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		max-width: 100%;
+		height: 41px;
+		background-color: #fff;
+		border-radius: 30px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+	}
+
+	.aramaDiv input[type="text"] {
+		flex: 1;
+		border: none;
+		padding-left: 20px;
+		background-color: transparent;
+		font-size: 13px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+
+	.aramaDiv button[type="submit"] {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50px;
+		height: 100%;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+		outline: none;
+	}
+
+	.aramaDiv button[type="submit"] .ıcon {
+		width: 24px;
+		height: 24px;
+	}
+
+	/*------*/
+
+
+	/*Hesap*/
+	.hesapAnaDiv {
+		display: block;
+		margin-right: 75px;
+	}
+
+	.hesapAnaDiv .isletmeUye {
+		display: flex;
+		height: 0px;
+	}
+
+	.hesapAnaDiv .isletmeUye .isletmeYazi a {
+		text-decoration: none;
+		color: rgb(154, 152, 152);
+		font-size: 12px;
+		margin-left: 92px;
+	}
+
+	.hesapAnaDiv .normalUye {
+		display: flex;
+	}
+
+	.hesapAnaDiv .normalUye .hesapDiv {
+		width: 100px;
+		height: 40px;
+		margin-left: 90px;
+		margin-top: 20px;
+		background-color: #428bca;
+		border: none;
+		border-radius: 25px;
+		/* Oval kenarlar oluşturmak için */
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		/* Hafif bir gölgelendirme eklemek için */
+	}
+
+	.hesapAnaDiv .normalUye .hesapDiv .hesapYazi {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 11px;
+		margin-right: 0px;
+
+	}
+
+	.hesapAnaDiv .normalUye .hesapDiv .hesapYazi a {
+		text-decoration: none;
+		color: white;
+		font-size: 13.5px;
+	}
+
+	/*----*/
+
+	/*HesabımKişi*/
+	.hesap-container {
+		position: relative;
+		display: inline-block;
+		font-family: Arial, sans-serif;
+		margin-left: 90px;
+		margin-top: 30px;
+	}
+
+	.hesap-yazi {
+		display: inline-block;
+		margin-left: 5px;
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	.icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hesap-menu {
+		display: none;
+		position: absolute;
+		top: 30px;
+		left: 0;
+		min-width: 150px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	.hesap-menu a {
+		display: block;
+		color: #000;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	.hesap-menu a:hover {
+		background-color: #f2f2f2;
+	}
+
+	.hesap-container:hover .hesap-menu {
+		display: block;
+	}
+
+	/*-------*/
+
+	/*Hesabım İsletme*/
+	.hesap-container1 {
+		position: relative;
+		display: inline-block;
+		font-family: Arial, sans-serif;
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+
+	.hesap-yazi1 {
+		display: inline-block;
+		margin-left: 5px;
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+		font-size: 13.5px;
+	}
+
+	.icon1 {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hesap-menu1 {
+		display: none;
+		position: absolute;
+		top: 30px;
+		left: 0;
+		min-width: 150px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	.hesap-menu1 a {
+		display: block;
+		color: #000;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	.hesap-menu1 a:hover {
+		background-color: #f2f2f2;
+	}
+
+	.hesap-container1:hover .hesap-menu1 {
+		display: block;
+	}
+
+	.ilanVer {
+		margin-top: 20px;
+		margin-left: 140px;
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #428bca;
+		color: #ffffff;
+		text-decoration: none;
+		border: 2px solid #428bca;
+		border-radius: 25px;
+		transition: background-color 0.3s, color 0.3s;
+	}
+
+	.ilanVer:hover {
+		background-color: #ffffff;
+		color: #428bca;
+	}
+
+	/*-------*/
+
+	/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+	.kategoriDiv {
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		height: 40px;
+		display: flex;
+		justify-content: space-between;
+		position: fixed;
+		top: 75px;
+		left: 0;
+		right: 0;
+		z-index: 9998;
+		background-color: #f6f6f6;
+		font-family: Arial, sans-serif;
+	}
+
+	.kategoriDiv div {
+		margin-left: 6px;
+		padding-top: 15px;
+	}
+
+	.cizgi {
+		margin-top: -5px;
+	}
+
+	.anaKategori {
+		font-size: 9px;
+		margin-left: 6px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	.anaKategori:hover {
+		color: #428bca;
+	}
+
+	.popupKategori {
+		position: absolute;
+		margin-top: 40px;
+		margin-right: 50px;
+		height: 300px;
+		display: none;
+		z-index: 1;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		border-top: none;
+		overflow: auto;
+	}
+
+	.altKategoriGrup {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		max-height: 100%;
+		overflow: auto;
+		font-size: 10px;
+	}
+
+	.altKategori {
+		width: 250px;
+		height: 25px;
+		color: #000000;
+		background-color: #9ecaf1;
+		border-radius: 20px;
+		display: flex;
+		justify-content: center;
+		text-align: center; /* Yatayda ortala */
+		text-align: center;
+		padding-top: -15px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.altKategori:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	}
+
+	.telefonRes {
+		display: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0;
+	}
+
+	.container {
+		min-width: 1200px;
+		width: 100%;
+	}
+
+	.ustDiv {
+		background-color: rgb(255, 255, 255);
+		min-width: 1200px;
+		width: 100%;
+		height: 75px;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+		display: flex;
+		justify-content: space-between;
+		position: fixed;
+		padding-bottom: 20px;
+	}
+
+	.logoKonum {
+		display: flex;
+	}
+
+	/*Logo*/
+	.ustDiv .logoDiv a {
+		font-size: 30px;
+		font-weight: bold;
+		margin-top: 9px;
+		margin-left: 75px;
+		font-family: 'YourFont', cursive;
+		color: #428bca;
+		text-decoration: none;
+	}
+
+	.logoDiv {
+		margin-top: 20px;
+	}
+
+	/*----*/
+
+
+	/*Konum*/
+	.ustDiv .konumDiv {
+		float: left;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		width: 200px;
+		height: 50px;
+		background-color: rgba(255, 255, 255, 0.981);
+		display: flex;
+		position: relative;
+	}
+
+	.ustDiv .konumDiv img {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		/* img ögesini absolute yap */
+		top: 14px;
+		/* yukarıda 10px boşluk bırak */
+		left: 10px;
+		/* solda 10px boşluk bırak */
+	}
+
+	.ustDiv .konumDiv select {
+		max-width: 200px;
+		width: 100%;
+		height: 50px;
+		padding-left: 30px;
+		/* sol padding değerini img ögesinin genişliği kadar artır */
+		background-color: transparent;
+		border: none;
+		border-radius: 25px;
+		/* Oval kenarlar oluşturmak için */
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		/* Hafif bir gölgelendirme eklemek için */
+	}
+
+	/*-----*/
+
+
+	/*Arama*/
+	.aramaDiv {
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+		width: 600px;
+		/* Varsayılan genişlik */
+		margin: 0 auto;
+		/* Dikey hizalama */
+		margin-left: 30px;
+
+	}
+
+	.aramaDiv form {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		max-width: 100%;
+		height: 50px;
+		background-color: #fff;
+		border-radius: 30px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+		margin-top: 18px;
+	}
+
+	.aramaDiv input[type="text"] {
+		flex: 1;
+		border: none;
+		padding-left: 20px;
+		background-color: transparent;
+		font-size: 13px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	.aramaDiv button[type="submit"] {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50px;
+		height: 100%;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+		outline: none;
+	}
+
+	.aramaDiv button[type="submit"] .ıcon {
+		width: 24px;
+		height: 24px;
+	}
+
+	/*------*/
+
+
+	/*Hesap*/
+	.hesapAnaDiv {
+		display: block;
+		margin-right: 75px;
+	}
+
+	.hesapAnaDiv .isletmeUye {
+		display: flex;
+		height: 0px;
+	}
+
+	.hesapAnaDiv .isletmeUye .isletmeYazi a {
+		text-decoration: none;
+		color: rgb(154, 152, 152);
+		font-size: 14px;
+		margin-left: 99px;
+	}
+
+	.normalUye .ilanVer {
+		margin-top: 20px;
+		margin-left: 180px;
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #428bca;
+		color: #ffffff;
+		text-decoration: none;
+		border: 2px solid #428bca;
+		border-radius: 25px;
+		transition: background-color 0.3s, color 0.3s;
+	}
+
+	.ilanVer:hover {
+		background-color: #ffffff;
+		color: #428bca;
+	}
+
+	.hesapAnaDiv .normalUye {
+		display: flex;
+	}
+
+	.hesapAnaDiv .normalUye .hesapDiv {
+		width: 130px;
+		height: 50px;
+		margin-left: 90px;
+		margin-top: 20px;
+		background-color: #428bca;
+		border: none;
+		border-radius: 25px;
+		/* Oval kenarlar oluşturmak için */
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		/* Hafif bir gölgelendirme eklemek için */
+	}
+
+	.hesapAnaDiv .normalUye .hesapDiv .hesapYazi {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 15px;
+		margin-right: 5px;
+	}
+
+	.hesapAnaDiv .normalUye .hesapDiv .hesapYazi a {
+		text-decoration: none;
+		color: white;
+	}
+
+	/*----*/
+
+	/*HesabımKişi*/
+	.hesap-container {
+		position: relative;
+		display: inline-block;
+		font-family: Arial, sans-serif;
+		margin-left: 100px;
+		margin-top: 30px;
+	}
+
+	.hesap-yazi {
+		display: inline-block;
+		margin-left: 5px;
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	.hesap-yazi :hover {
+		color: #428bca;
+	}
+
+	.icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hesap-menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		border-radius: 15px;
+		min-width: 150px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		z-index: 1;
+		opacity: 0;
+		visibility: hidden;
+		transition: opacity 0.3s, visibility 0.3s;
+	}
+
+	.hesap-menu a {
+		display: block;
+		color: #000;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	.hesap-menu a:hover {
+		background-color: #f2f2f2;
+	}
+
+	.hesap-container:hover .hesap-menu {
+		display: block;
+		opacity: 1;
+		visibility: visible;
+	}
+
+	/*-------*/
+
+	/*Hesabım İsletme*/
+	.hesap-container1 {
+		position: relative;
+		display: inline-block;
+		font-family: Arial, sans-serif;
+		margin-left: 30px;
+		margin-top: 30px;
+	}
+
+	.hesap-yazi1 {
+		display: inline-block;
+		margin-left: 5px;
+		color: #000000;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	.hesap-yazi1 :hover {
+		color: #428bca;
+	}
+
+
+	.icon1 {
+		width: 20px;
+		height: 20px;
+	}
+
+	.hesap-menu1 {
+		display: none;
+		position: absolute;
+		top: 30px;
+		left: 0;
+		min-width: 150px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		z-index: 1;
+		border-radius: 15px;
+	}
+
+	.hesap-menu1 a {
+		display: block;
+		color: #000;
+		padding: 10px;
+		text-decoration: none;
+	}
+
+	.hesap-menu1 a:hover {
+		background-color: #f2f2f2;
+	}
+
+	.hesap-container1:hover .hesap-menu1 {
+		display: block;
+	}
+
+	/*-------*/
+
+	/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+	.kategoriDiv {
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 50px;
+		display: flex;
+		justify-content: space-between;
+		position: fixed;
+		top: 75px;
+		left: 0;
+		right: 0;
+		z-index: 9998;
+		background-color: #f6f6f6;
+		font-family: Arial, sans-serif;
+	}
+
+	.kategoriDiv div {
+		margin-left: 6px;
+		padding-top: 19px;
+		padding-bottom: 19px;
+	}
+
+	.cizgi {
+		margin-top: -2px;
+	}
+
+	.anaKategori {
+		font-size: 13px;
+		margin-left: 6px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	.anaKategori:hover {
+		color: #428bca;
+	}
+
+	.popupKategori {
+		position: absolute;
+		margin-top: 50px;
+		margin-right: 50px;
+		height: 300px;
+		display: none;
+		z-index: 1;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		border-top: none;
+		overflow: auto;
+	}
+
+	.altKategoriGrup {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		max-height: 100%;
+		overflow: auto;
+		font-size: 15px;
+	}
+
+	.altKategori {
+		width: 300px;
+		height: 30px;
+		color: #000000;
+		background-color: #9ecaf1;
+		border-radius: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* Dikeyde ortala */
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.altKategori:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	}
+
+	.telefonRes {
+		display: none;
+	}
+}

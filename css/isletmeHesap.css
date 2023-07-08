@@ -1,0 +1,177 @@
+.content{
+    width: 1300px;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    display: flex;
+  }
+  
+  
+  /*HESAP SİDEBAR*/
+  
+  .hesapSidebar {
+    width: 200px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .hesapLogo {
+    width: 90px;
+    height: 90px;
+    display: block; /* öğeyi bir blok öğesi olarak görüntüleyin */
+    margin: 0 auto; /* sol ve sağ değerleri "auto" olarak ayarlayın */
+    margin-top: 20px;
+    border-radius: 50%; /* yuvarlak köşeleri ayarlar */
+    overflow: hidden; /* yuvarlak köşelerin görüntülenecek içeriğini belirler */
+  }
+  
+  .hesapIsim {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .hesapSpan{
+    margin-top: 60px;
+  }
+  
+  .span {
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .span a {
+    text-decoration: none;
+    color: #333;
+  }
+  /*-----------------*/
+  
+  
+  
+  
+  
+  /*ORTAK*/
+  .hesapBilgiBaslik {
+    margin-top: -30px;
+    font-size: 19px;
+    font-weight: bold;
+  
+  }
+  
+  
+  .satir {
+    width: 800px;
+    height: 1px;
+    background-color: black;
+    margin: 10px 0;
+  }
+  /*-----*/
+  
+  
+  
+  
+  
+  /*KULLANICI BİLGİLERİ*/
+
+  .hesapBilgi {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: none;
+  }
+  
+  .hesapBilgi form{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .formGrup {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formGrup select{
+    margin-bottom: 20px;
+    width: 160px;
+    height: 30px;
+    border-radius: 15px;
+
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .formGrup input,
+  .formGrup textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .formGrup img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .formGrup textarea {
+    height: 100px;
+  }
+  
+  .guncelleButton {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #428bca;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  /*--------------------------*/
+  
+  
+  
+  
+  
+  /*FAVORİLERİM*/
+  
+  .favoriler{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: none;
+  }
+  
+  .kampanyaListe {
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .kampanyaListe > div {
+    width: 25%; /* Her bir öğenin genişliği 25% */
+    margin-bottom: 30px; /* Alt satırla arasında 20 piksel mesafe */
+  }
+  
+  /*--------------*/

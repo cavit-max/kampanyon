@@ -1,0 +1,45 @@
+.hakkindaDiv {
+    background-color: #428bca;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 100px;
+    }
+    
+    .hakkindaDiv p {
+    margin: 0;
+    }
+    
+    .hakkindaDiv a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    }
+    
+    .hakkindaDiv a[title]::after {
+    content: attr(title);
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    }
+    
+    .hakkindaDiv a:hover {
+    color: #000;
+    }
+    
+    .sosyalMedya {
+    margin-top: 10px;
+    }
+    
+    .sosyalMedya a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 18px;
+    }
+    
+    .sosyalMedya a:hover {
+    color: #000;
+    }

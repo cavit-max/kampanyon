@@ -1,0 +1,125 @@
+.container31 {
+    width: 80%; 
+    max-width: 800px;
+    height: 1000px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.container31 input[type="text"],input[type="file"], button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.container31 input[type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 20px;
+    outline: none;
+}
+
+
+#inputTitle {
+    width: 100%;
+    max-width: 800px;
+    height: 50px; 
+}
+#inputOran {
+    width: 100%;
+    max-width: 800px;
+    height: 50px; 
+}
+#inputAciklama {
+    width: 100%;
+    max-width: 800px;
+    height: 150px; 
+}
+#inputAdres {
+    width: 100%;
+    max-width: 800px;
+    height: 150px; 
+}
+
+.container31 button{
+    background-color: #428bca;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+.container31 button:hover {
+    background-color: #428bca;
+}
+
+#photo-preview {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#ilanKategori, #ilanAltKategori, #il,#ilce {
+    width: 100%;
+    max-width: 800px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+@media only screen and (max-width: 747.99px) {
+    .content {
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 748px) and (max-width: 900.99px) {
+    .content {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1199.99px) {
+    .content {
+        margin-top: 165px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .content {
+        margin-top: 200px;
+    }
+
+}
